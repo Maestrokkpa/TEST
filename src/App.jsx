@@ -8,6 +8,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Users from "./pages/Users";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import Admins from "./pages/Admins";
 
 function App ()  {
@@ -23,6 +24,7 @@ function App ()  {
         <Route path="/users" element={<Users />} />
         <Route path="/admins" element={<Admins />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
