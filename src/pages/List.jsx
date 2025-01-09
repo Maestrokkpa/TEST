@@ -16,7 +16,7 @@ function List () {
 
   return (
     <div>
-      <h1>Liste des Pokémon</h1>
+      <h1>Liste des Pokémons</h1>
       {console.log(pokemon)}
       <ul>
   {pokemon.map((p, index) => (
